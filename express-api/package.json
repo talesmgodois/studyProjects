@@ -1,0 +1,15 @@
+{
+	"name": "express-api",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": "Tales M Godois",
+	"license": "MIT",
+	"dependencies": {
+		"express": "^4.17.1",
+		"sqlite3": "^4.0.8"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon ./bin/server.js"
+	}
+}
